@@ -32,5 +32,5 @@ jobs:
     - name: installing surge
       run: npm install --g surge
     - name: depolying using surge
-      run: surge ./ poised-ladybug.surge.sh --token $ {{ secrets.SURGE_TOKEN}}
+      run: surge ./ poised-ladybug.surge.sh --token " 87b57f64b4f1f36eceeb642c16bdffe3"
       
